@@ -44,7 +44,7 @@
 使用如下命令执行修复：
 ```sh
 ./repair.exe
---mode trace  # 运行模式，固定值
+--mode repair  # 运行模式，固定值
 --repair-mode yourRepairMode  # trace算法，context：收集元素及其上下文信息；no_context：仅收集元素本身的信息
 --testcase-path yourTestcasePath   # 测试用例文件路径
 --trace-path yourTracePath  # trace信息保存路径，默认为测试用例路径加上.trace后缀
